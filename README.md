@@ -1,23 +1,7 @@
-# Verdinha (nome provisório)
+# Salário Aberto
 
-Extensão para Chrome e Firefox (em breve) que análisa o texto da página em busca de nomes de candidatos e congressistas e retorna os maiores doadores de campanha.
-
-Nos moldes de:
-http://allaregreen.us/
-
-## Server
-
-Dependencias
-* Python
-	* Flask
-	* PyMongo
-	* csvkit
-* MongoDB
-
-Rodando servidor de teste:
-	scripts/setup.sh
-
+Extensão para Chrome que revela os nomes por trás dos códigos de matriculas dos servidores públicos nas páginas da Câmara e Assembléia de São Paulo.
 
 ## Cliente
 
-Plugins p/ Chrome/Firefox/Safari
+Plugins p/ Chrome
