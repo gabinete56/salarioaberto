@@ -20,7 +20,8 @@
   "content_scripts": [ {
 	"css": [],
   	"js": [ "lib/jquery-2.1.0.min.js", "lib/jquery.typist.min.js", "lib/csv.js", "script.js" ],
-    "matches": [ "http://www.camara.sp.gov.br/transparencia/salarios-abertos/remuneracao-dos-servidores-e-comissionados/" ],
+    "matches": [ "http://www.camara.sp.gov.br/transparencia/salarios-abertos/remuneracao-dos-servidores-e-comissionados/",
+                 "https://www.al.sp.gov.br/repositorio/folha-de-pagamento/*" ],
     "run_at": "document_idle"
    } ],
    "web_accessible_resources": [
