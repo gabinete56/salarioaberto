@@ -1,7 +1,7 @@
 {
-  "name": "Verdinhas",
-  "description": "Análisa a página em busca de candidatos e congressistas e exibe as maiores doações de campanha.",
-  "version": "2.0.5",
+  "name": "Revela Salários",
+  "description": "Análisa as páginas da Câmara Municipal de São Paulo e Assembléia Legislativa de São Paulo e revela o nome dos servidores escondidos atrás das matriculas na página de Salários Abertos.",
+  "version": "0.0.1",
   "permissions": [
     "activeTab",
     "http://*/*"
@@ -15,16 +15,16 @@
      "19": "images/icon19.png",
      "38": "images/icon38.png"
     },
-    "default_title": "Verdinhas [Ligado]"
+    "default_title": "Revela Salários [Ligado]"
   },
   "content_scripts": [ {
-	"css": [ "tooltipster.css", "tooltipster-verdinha.css", "styles.css"],
-  	"js": [ "patch-worker.js", "jquery-2.1.0.min.js", "jquery.tooltipster.min.js", "jquery.highlight.js", "names.js", "script.js" ],
-    "matches": [ "http://*/*" ],
+	"css": [],
+  	"js": [ "lib/jquery-2.1.0.min.js", "lib/jquery.typist.min.js", "lib/csv.js", "script.js" ],
+    "matches": [ "http://www.camara.sp.gov.br/transparencia/salarios-abertos/remuneracao-dos-servidores-e-comissionados/" ],
     "run_at": "document_idle"
    } ],
    "web_accessible_resources": [
-        "worker.js"
+        "worker.js", "data/*.csv"
    ],
    "icons": { "16": "images/icon16.png",
            "48": "images/icon48.png",
