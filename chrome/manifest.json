@@ -1,7 +1,7 @@
 {
-  "name": "Revela Salários",
-  "description": "Análisa as páginas da Câmara Municipal de São Paulo e Assembléia Legislativa de São Paulo e revela o nome dos servidores escondidos atrás das matriculas na página de Salários Abertos.",
-  "version": "0.0.1",
+  "name": "Aparecium Salários",
+  "description": "Use a extensão Aparecium Salários para desvendar os salários dos funcionários das casas legislativas de São Paulo.",
+  "version": "0.0.2",
   "permissions": [
     "activeTab",
     "http://*/*"
@@ -27,8 +27,6 @@
    "web_accessible_resources": [
         "worker.js", "data/*.csv"
    ],
-   "icons": { "16": "images/icon16.png",
-           "48": "images/icon48.png",
-          "128": "images/icon128.png" },
+   "icons": { "128": "images/icon128.png" },
   "manifest_version": 2
 }
