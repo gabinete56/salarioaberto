@@ -1,7 +1,7 @@
 {
   "name": "Aparecium Salários",
   "description": "Use a extensão Aparecium Salários para desvendar os salários dos funcionários das casas legislativas de São Paulo.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "permissions": [
     "activeTab",
     "http://*/*"
